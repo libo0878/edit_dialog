@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_send"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3F6F6"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_keywored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="发送弹幕一起high!"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="14dp"
+            android:paddingTop="7dp"
+            android:textColor="#898989"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/iv_dm_pen" />
+
+        <TextView
+            android:id="@+id/tv_textcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="14dp"
+            android:text="10"
+            android:textColor="#898989"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/chat_list_button_btn_send_n"
+        android:text="发射"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>
+
